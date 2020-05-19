@@ -17,5 +17,11 @@ In the process of desiging the frame, considerations had to made for the propuls
 
 ## Propulsion
 
-As stated before, the team was constrained to 4 thrusters. This is because of the contraints of the MATE competition. For safety reasons, teams participating in the Ranger class are limited to a 25 amp power supply. 
+As stated before, the team was constrained to 4 thrusters. This constraint stems from the regulations of the MATE competition and the thrusters chosen for this ROV. For safety reasons, teams participating in the Ranger class are limited to a 25 amp power supply. The thrusters chosen for this ROV were the Blue Robotics T200 thruster. This thruster was chosen because of its force to current ratio and relative affordability.
+
+"screenshot of force vs current graph of thruster"
+
+Knowing that the power supply can only supply 25 amps, in the electrical design, 20 amps was allocated to the propulsion system. This maximizes the current dedicated to thrusters while leaving enough current for other electrical components and a safety buffer. Maximizing the total thrust force is advantageous for obvious reasons. It would provide the maximum agility and make the ROV practical for real-world applications. 
+
+
 
