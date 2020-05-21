@@ -21,7 +21,11 @@ As stated before, the team was constrained to 4 thrusters. This constraint stems
 
 "screenshot of force vs current graph of thruster"
 
-Knowing that the power supply can only supply 25 amps, in the electrical design, 20 amps was allocated to the propulsion system. This maximizes the current dedicated to thrusters while leaving enough current for other electrical components and a safety buffer. Maximizing the total thrust force is advantageous for obvious reasons. It would provide the maximum agility and make the ROV practical for real-world applications. 
+Knowing that the power supply can only supply 25 amps, in the electrical design, 20 amps was allocated to the propulsion system. This maximizes the current dedicated to thrusters while leaving enough current for other electrical components and a safety buffer to avoid blowing a fuse. Maximizing the total thrust force is advantageous for obvious reasons. It would provide the maximum agility and make the ROV practical for real-world applications.
 
+The final design was between a 3 thruster configuration or a 4 thruster configuration. The team opted for the 4 thrsuter configuration because of its higher total thrust, but more importantly its symmetry resulting in better controllability. The thruster configuration consists of two thrusters dedicated for vertical movement (z-axis) and two thrusters dedicated for lateral movement (xy plane). This thruster configuration with the thrusters ability to produce a thrust in either direction gives the ROV control over its pitch and yaw. However, the ROV doesn't have explicit control of its roll. Buoyancy foam placed on the top of the ROV keeps it upright and prevents it from rolling. 
 
+"show picture of thruster configuration"
+
+In a future iteration of this ROV, the team plans to gimbal the two thrusters dedicated for lateral movement. This will allow the ROV to move on more complicated paths giving the ROV greater freedom in the water.
 
