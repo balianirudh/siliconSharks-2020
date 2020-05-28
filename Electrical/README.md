@@ -18,3 +18,18 @@ In the prototype electronics system, an Arduino Uno was used because of its affo
 
 "show picture of arduino and sam15x15 side by side"
 
+## Tether
+
+The goal with the tether was to design the most lightweight and thin tether as possible while still satisfying the ROV's electronic demand. The tether encloses just two cables, a power cable and an ethernet cable. The two cables are enclosed in a mesh sheath to keep them together and prevent the cables from tangiling. 
+
+"image of tether here"
+
+### Communication
+
+Control signals are transmitted from a laptop to the ROV through one Category6 Ethernet cable which has 8 cores. Of the 8 cores, 4 cores are used for serial communication and 4 cores are used for the camera video feed. CAT6 was used as it can provide serial communication at a rate of 250 Kbps.
+
+### Power
+
+Two 12-gauge wires were used to meet the current rating needed for the ROV. A thicker gauge minimizes the voltage drop from the power supply to the electroncis enclosure. A 12 gauge wire is thick enough to carry a 25A current while keeping the overall tether fairly low profile.
+
+
