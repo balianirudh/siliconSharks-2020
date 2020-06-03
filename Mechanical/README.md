@@ -3,7 +3,10 @@
 The ROV is made up of several mechanical subsystems. The primary mechanical systems of the ROV are the frame, the main electronics
 enclosure, the camera enclosures, and the gripper. Our goal was to make a neutrally buoyant, compact, and easily-assembled ROV. To do this, there was a constant emphasis on original design and exploiting custom fabrication.
 
-"show finished picture of ROV here"
+<p align="center"><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/rovIsoView.png" width="391" height="300"/></p>
+<p align="center"> Isometric View of ROV </p>
+<p align="center"><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/rovFrontView.png" width="326" height="186"/><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/rovSideView.png" width="300" height="186"/></p>
+<p align="center"> Front View of ROV (left), Side View of ROV (right) </p>
 
 ## Frame
 
@@ -11,7 +14,8 @@ When designing the frame of the ROV, the focus was put on creating a high strent
 
 The parts that make up the frame are connected in several ways. The main way is through brackets that are soley meant to bring a general structure to the frame. From here, specific parts such as the main electronics housing or thruster guards reinforce the frame while serving different purposes altogether.
 
-"show pictures of frame pieces and frame brackets"
+<p align="center"><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/frameAssembly.png" width="400" height="239"/><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/transparentFrameAssembly.png" width="400" height="241"/></p>
+<p align="center">Frame Assembly</p>
 
 In the process of desiging the frame, considerations had to made for the propulsion of the ROV. The team was constrainted to four thrusters. With these four thrusters, the team had to maximize the ROV's degrees of freedom. The way this was done is discussed in the next section.
 
@@ -25,7 +29,8 @@ Knowing that the power supply can only supply 25 amps, in the electrical design,
 
 The final design was between a three thruster configuration or a four thruster configuration. The team opted for the four thrsuter configuration because of its higher total thrust, but more importantly its symmetry resulting in better controllability. The thruster configuration consists of two thrusters dedicated for vertical movement (z-axis) and two thrusters dedicated for lateral movement (xy plane). This thruster configuration with the thrusters ability to produce a thrust in either direction gives the ROV control over its pitch and yaw. However, the ROV doesn't have explicit control of its roll. Buoyancy foam placed on the top of the ROV keeps it upright and prevents it from rolling. 
 
-"show picture of thruster configuration"
+<p align="center"><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/rovTopView.png" width="338" height="300"/></p>
+<p align="center"> Top View of ROV that highlights thruster configuration</p>
 
 In a future iteration of this ROV, the team plans to gimbal the two thrusters dedicated for lateral movement. This will allow the ROV to move on more complicated paths giving the ROV greater freedom in the water.
 
@@ -33,11 +38,12 @@ In a future iteration of this ROV, the team plans to gimbal the two thrusters de
 
 ### Main Enclosure
 
-The main electronics enclosure is a diecast aluminum enclosure. The enclosure is a 6.5in box that houses all the main electronics for communication and thruster control. The diecast aluminum is non-porus and high strength to ensure that the material won't allow water to move into the box over long periods of time submerged in water and won't deform under the water pressures we expect to face.
+The main electronics enclosure is a diecast aluminum enclosure produced by Polycase. The enclosure is a 6.5in box that houses all the main electronics for communication and thruster control. The diecast aluminum is non-porus and high strength to ensure that the material won't allow water to move into the box over long periods of time submerged in water and won't deform under the water pressures we expect to face.
 
 The electronics within the box are accessed by opening the lid of the enclosure that is held down by four screws. The screws ensure that the lid does not move and keeps the face seal O-ring compressed.
 
-"add picture of main electronics housing"
+<p align="center"><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/electronicsEnclosure.png" width="329" height="299"/><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/internalElectronicsEnclosure.png" width="350" height="299"/></p>
+<p align="center"> AN-10F enclosure from Polycase (left), Interior ellectronics enclosure assembly (right) </p>
 
 ### Camera Enclosure
 
