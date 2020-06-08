@@ -8,13 +8,19 @@ power and communication for all the sensors and cameras with minimal power consu
 
 ## Power Distribution System
 
-The 12V external power supply is connected directly to the onboard electronics through the ROV's tether. On the tether, there is a 25A fuse to ensure that the electronics are protected if the electronics system tries to draw too much current from the power supply. The 12V is supplied directly to a power distribution module. The power distribution module supplies 12V to each of the thrusters and the 12V-7.4V buck converter. Along with this, the power distribution module has an integrated 12V-5V converter which supplies a regulated voltage to the microcontroller.
+The 12V external power supply is connected directly to the onboard electronics through the ROV's tether. On the tether, there is a 25A fuse to ensure that the electronics are protected if the electronics system tries to draw too much current from the power supply. The 12V is supplied directly to a power distribution module. The power distribution module supplies 12V to each of the thrusters and to the 12V-7.4V buck converter. Along with this, the power distribution module has an integrated 12V-5V converter which supplies a regulated voltage to the microcontroller.
 
-"show picture of power distribution module and servo voltage converter here"
+"show picture of power distribution module and servo voltage converter here highlight custom resistor"
+
+The power distribution board chosen for the ROV is the Matek V3.1. This power distribution board was designed for originally designed for quadcopters but can be used in many applications. Because the board was designed for drones, it is very compact making it ideal for out onboard electronics. The features of this board also met our electrical needs as it has an input voltage range of 9V-26V, 4 ESC outputs (each rated to 20A continuous), 5V output (used for the microcontroller), and a 12V output (for the servos). The board is also very affordable making it a good option for the prototype electronics.
+
+The buck converter used to convert 12V to 7.4V is the SparkFun Buck-Boost Converter. This converter was choses because it can convert a 12V input into several different voltages depending on the application. The board was designed for the user to pick a desired output voltage. Based on that voltage, the user solders on a specific resistor to the board (resistance needs to be calculated) which steps down the input voltage to the desired voltage. For this ROV, the serovs operate at 7.4V so a 560Ohm resistor was soldered on to the board to acheive the desired step-down.
+
+"equation to calculate resistance from sparkfun"
 
 ## Microcontroller
 
-In the prototype electronics system, an Arduino Uno was used because of its affordabiity as well as its open source AVR microcontroller-based development which can be programmed easily. The Arduino had enough PWM ports to connect all of our thrusters and servos. (add something novel about why else we used arduino).
+In the prototype electronics system, an Arduino Uno was used because of its affordabiity as well as its open source AVR microcontroller-based development which can be programmed easily. The Arduino had enough PWM ports to connect all of our thrusters and servos. (add why else we used arduino).
 (add documentation about switch to SAM15x15)
 
 <p align="center"><img src="https://github.com/balianirudh/siliconSharks-2020/blob/master/images/arduino-SAM15x15.jpg" width="400" height="300"/></p>
